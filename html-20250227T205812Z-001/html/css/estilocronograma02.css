@@ -1,0 +1,168 @@
+.cronograma-02,
+.cronograma-02 * {
+  box-sizing: border-box;
+}
+.cronograma-02 {
+    background-image: url('/html/img/fundoprincipal2.png');
+    background-repeat: no-repeat;
+    padding: auto;
+    height: 800px;
+    position: relative;
+    overflow: hidden;
+}
+.image-3 {
+  width: 472px;
+  height: 800px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.line-1 {
+  background: #d9d9d9;
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #f19036;
+  border-width: 3px 0 0 0;
+  width: 186.01px;
+  height: 0px;
+  position: absolute;
+  left: 0px;
+  top: 239px;
+  transform-origin: 0 0;
+  transform: rotate(-0.616deg) scale(1, 1);
+}
+.mtlogo-1 {
+  width: 138px;
+  height: 85px;
+  position: absolute;
+  left: 24px;
+  top: 39px;
+  object-fit: cover;
+}
+.cronograma {
+  color: #1d234b;
+  text-align: left;
+  font-family: "LeagueSpartan-Bold", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  position: absolute;
+  left: 23px;
+  top: 213px;
+}
+.image-4 {
+  width: 151px;
+  height: 142px;
+  position: absolute;
+  left: 197px;
+  top: 58px;
+  object-fit: cover;
+}
+.imagem-da-caixa-ou-do-medicamento {
+  color: #1d234b;
+  text-align: left;
+  font-family: "LeagueSpartan-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 105px;
+  top: 276px;
+}
+.camera-1 {
+  width: 108px;
+  height: 83px;
+  position: absolute;
+  left: 121px;
+  top: 326px;
+  object-fit: cover;
+}
+.imagem-2023-10-19-153902708-1 {
+  width: 166px;
+  height: 59px;
+  position: absolute;
+  left: 198px;
+  top: 727px;
+  object-fit: cover;
+}
+.jovem-1 {
+  width: 132px;
+  height: 167px;
+  position: absolute;
+  left: 9px;
+  top: 551px;
+  object-fit: cover;
+}
+.velho-1 {
+  width: 153px;
+  height: 211px;
+  position: absolute;
+  left: 207px;
+  top: 469px;
+  object-fit: cover;
+}
+.informar-forma-de-administra-o {
+  color: #1d234b;
+  text-align: left;
+  font-family: "LeagueSpartan-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 0px;
+  top: 444px;
+  width: 294px;
+  height: 49px;
+}
+.checked-1 {
+  width: 62px;
+  height: 55px;
+  position: absolute;
+  left: 167px;
+  top: 493px;
+  object-fit: cover;
+}
+.checked-2 {
+  width: 62px;
+  height: 55px;
+  position: absolute;
+  left: 131px;
+  top: 650px;
+  object-fit: cover;
+}
+.oral {
+  color: #1d234b;
+  text-align: left;
+  font-family: "LeagueSpartan-Bold", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  position: absolute;
+  left: 114px;
+  top: 509px;
+  width: 57px;
+}
+.injet-vel-pomada {
+  color: #1d234b;
+  text-align: left;
+  font-family: "LeagueSpartan-Bold", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  position: absolute;
+  left: 198px;
+  top: 668px;
+  width: 116px;
+}
+.vector-imagem {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 263px;
+  top: 293px;
+  overflow: visible;
+}
+.vector-administracao {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 226px;
+  top: 463px;
+  overflow: visible;
+}

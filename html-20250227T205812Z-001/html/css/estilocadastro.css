@@ -1,0 +1,378 @@
+.cadastro,
+.cadastro * {
+  box-sizing: border-box;
+}
+
+.cadastro {
+  background-image: url('/html/img/fundoprincipal.png');
+  background-repeat: no-repeat;
+  padding: 10px;
+  height: 800px;
+  position: relative;
+  overflow: hidden;
+}
+
+.image-1 {
+  width: auto;
+  height: 800px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+
+.pilfree-1 {
+  width: 158px;
+  height: 144px;
+  position: absolute;
+  left: 202px;
+  top: 32px;
+  object-fit: cover;
+}
+
+.termos-de-uso-e-condi-es {
+  color: #1d234b;
+  text-align: left;
+  font-family: "LeagueSpartan-Bold", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+  left: 19%;
+  top: 760px;
+}
+
+.botao-confirmar {
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #FF7E31, #f19036);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  height: 40px;
+  line-height: 10px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 25%;
+  z-index: 9;
+  border: 0;
+  transition: box-shadow 0.2s;
+  bottom: 60px;
+  right: 10px;
+}
+
+.line-1 {
+  background: #d9d9d9;
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #f19036;
+  border-width: 3px 0 0 0;
+  width: 186.01px;
+  height: 0px;
+  position: absolute;
+  left: 0px;
+  top: 239px;
+  transform-origin: 0 0;
+  transform: rotate(-0.616deg) scale(1, 1);
+}
+
+.senha {
+  color: #1d234b;
+  text-align: left;
+  font-family: "LeagueSpartan-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 66px;
+  top: 515px;
+}
+
+.sexo-opcoes {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 20px;
+}
+
+.sexo-opcoes label {
+    font-size: 25px;
+    color: #003366;
+    position: relative;
+    top: 370px;
+    left: 30px;
+}
+
+.sexo-opcoes>label {
+    margin-right: 20px;
+}
+
+.sexo {
+  color: #1d234b;
+  text-align: left;
+  font-family: "LeagueSpartan-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position:relative;
+  left: 56px;
+  top: 370px;
+}
+.vector-sexo {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: calc(65px + 24px + 50px);
+  top: 255px;
+  overflow: visible;
+}
+
+.mulher {
+  color: #1d234b;
+  text-align: left;
+  font-family: "LeagueSpartan-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  left: 91px;
+  top: 655px;
+}
+
+.mulher2 {
+  border-style: solid;
+  border-color: #f19036;
+  border-width: 5px;
+  width: 40px;
+  height: 30px;
+  position: absolute;
+  left: 48px;
+  top: 651px;
+}
+
+.homem {
+  color: #1d234b;
+  text-align: left;
+  font-family: "LeagueSpartan-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 246px;
+  top: 656px;
+}
+
+.homem2 {
+  border-style: solid;
+  border-color: #f19036;
+  border-width: 5px;
+  width: 40px;
+  height: 30px;
+  position: absolute;
+  left: 203px;
+  top: 651px;
+}
+
+.n-o-bin-rio {
+  color: #1d234b;
+  text-align: left;
+  font-family: "LeagueSpartan-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 139px;
+  top: 696px;
+}
+
+.n-o-bin-rio2 {
+  border-style: solid;
+  border-color: #f19036;
+  border-width: 5px;
+  width: 40px;
+  height: 30px;
+  position: absolute;
+  left: 95px;
+  top: 691px;
+}
+
+.vector-senha {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 159px;
+  top: 515px;
+  overflow: visible;
+}
+
+.e-mail {
+  color: #1d234b;
+  text-align: left;
+  font-family: "LeagueSpartan-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 66px;
+  top: 435px;
+}
+
+.vector-email {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: calc(66px + 24px + 70px);
+  /* Ajusta para ficar ao lado do .e-mail considerando margem */
+  top: 435px;
+  overflow: visible;
+}
+
+.data-de-nascimento {
+  color: #1d234b;
+  text-align: left;
+  font-family: "LeagueSpartan-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 66px;
+  top: 355px;
+}
+
+.vector-data-nascimento {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 315px;
+  top: 355px;
+  overflow: visible;
+}
+
+.nome {
+  color: #1d234b;
+  text-align: left;
+  font-family: "LeagueSpartan-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 66px;
+  top: 272px;
+}
+
+.vector-nome {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 150px;
+  top: 272px;
+  overflow: visible;
+}
+
+.cadastro2 {
+  color: #1d234b;
+  text-align: left;
+  font-family: "LeagueSpartan-Bold", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  position: absolute;
+  left: 25px;
+  top: 200px;
+  width: 151px;
+  height: 29px;
+}
+
+.mtlogo-1 {
+  width: 138px;
+  height: 85px;
+  position: absolute;
+  left: 24px;
+  top: 39px;
+  object-fit: cover;
+}
+
+input[type="radio"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 4px solid orange;
+  border-radius: 0;
+  background-color: white;
+  cursor: pointer;
+  position: relative;
+  top: 5px;
+}
+
+input[type="radio"]:checked {
+  background-color: orange;
+
+}
+
+
+
+
+label {
+  display: block;
+  /* Coloca o label em uma linha separada */
+  font-weight: bold;
+  margin-bottom: 5px;
+  /* Espaço entre o label e o input */
+}
+
+.input-field {
+  border-radius: 30px;
+  font-size: 14px;
+  background-color: white;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+input[type="date"] {
+  background: white;
+  border-radius: 30px;
+  width: 100%;
+  height: 35px;
+  font-size: 12px;
+  padding: 5px 10px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+input {
+  border-top: 2px dashed #1e1e1e;
+  border-bottom: 2px dashed #1e1e1e;
+  border-left: 2px solid #1e1e1e;
+  border-right: 2px solid #1e1e1e;
+
+}
+
+/* Divs do cadastro nome */
+
+.caixanome {
+  position: relative;
+  bottom: -295px;
+  width: 70%;
+  margin-left: 50px;
+}
+
+.caixanascimento {
+  position: relative;
+  bottom: -330px;
+  width: 70%;
+  margin-left: 50px;
+}
+
+.caixaemail {
+  position: relative;
+  bottom: -360px;
+  width: 70%;
+  margin-left: 50px;
+}
+
+.caixasenha {
+  position: relative;
+  bottom: -380px;
+  width: 70%;
+  margin-left: 50px;
+}

@@ -1,0 +1,455 @@
+.cronograma-01,
+.cronograma-01 * {
+    box-sizing: border-box;
+}
+
+.cronograma-01 {
+    background-image: url('/html/img/fundoprincipal2.png');
+    background-repeat: no-repeat;
+    padding: auto;
+    height: 800px;
+    position: relative;
+    overflow: hidden;
+}
+
+.line-1 {
+    background: #d9d9d9;
+    margin-top: -3px;
+    border-style: solid;
+    border-color: #f19036;
+    border-width: 3px 0 0 0;
+    width: 186.10px;
+    height: 0px;
+    position: absolute;
+    left: 0px;
+    top: 250px;
+    transform-origin: 0 0;
+    transform: rotate(-0.616deg) scale(1, 1);
+}
+
+.mtlogo-1 {
+    width: 138px;
+    height: 85px;
+    position: absolute;
+    left: 24px;
+    top: 39px;
+    object-fit: cover;
+}
+
+.cronograma {
+    color: #1d234b;
+    text-align: left;
+    font-family: "LeagueSpartan-Bold", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    position: absolute;
+    left: 24px;
+    top: 213px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-field {
+    border-radius: 30px;
+    font-size: 16px;
+    background-color: white;
+    width: auto;
+    padding: 16px;
+    margin-bottom: 10%;
+    position: relative;
+}
+
+input {
+    border-top: 2px dashed #1e1e1e;
+    border-bottom: 2px dashed #1e1e1e;
+    border-left: 2px solid #1e1e1e;
+    border-right: 2px solid #1e1e1e;
+}
+
+.nome-do-rem-dio {
+    color: #1d234b;
+    text-align: left;
+    font-family: "LeagueSpartan-Bold", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    left: 15%;
+    top: 35%;
+}
+
+.caixanomeremedio {
+    position: relative;
+    bottom: -39%;
+    width: 100%;
+    margin-left: 10%;
+}
+
+.hor-rio-inicial-do-tratamento {
+    color: #1d234b;
+    text-align: left;
+    font-family: "LeagueSpartan-Bold", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    position: absolute;
+    left: 8%;
+    top: 49%;
+}
+
+.intervalo-de-horas-e-dias {
+    color: #1d234b;
+    text-align: left;
+    font-family: "LeagueSpartan-Bold", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    left: 10%;
+    top: 67%;
+}
+
+.vector-remedio {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 60%;
+    top: 35%;
+    overflow: visible;
+}
+
+.vector-horainicial {
+    width: auto;
+    height: 20px;
+    position: absolute;
+    left: 86%;
+    top: 49%;
+    overflow: visible;
+}
+
+.vector-intervalo {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 85%;
+    top: 67%;
+    overflow: visible;
+}
+
+.image-4 {
+    width: 151px;
+    height: 142px;
+    position: absolute;
+    left: 197px;
+    top: 58px;
+    object-fit: cover;
+}
+
+
+.data-1 {
+    width: 111px;
+    height: 78px;
+    position: absolute;
+    left: 205px;
+    top: 582px;
+    object-fit: cover;
+}
+
+.btn-prosseguir {
+    background-clip: padding-box;
+    background-color: rgba(29, 35, 75, 1);
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    color: #fff;
+    cursor: pointer;
+    justify-content: center;
+    width: 89px;
+    height: 47px;
+    position: absolute;
+    left: 69%;
+    top: 85%;
+    object-fit: cover;
+}
+
+/* Relogio 1  */
+
+.relogio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* Centraliza verticalmente */
+    position: absolute;
+    top: 59%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Ajusta a posição para o centro exato */
+    width: 100%;
+    max-width: 300px;
+}
+
+.relogio {
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    border: 4px solid #6fa8dc;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    position: relative;
+    width: 100%;
+    max-width: 70%;
+    /* Ajuste conforme necessário */
+    justify-content: center;
+}
+
+.numero {
+    width: 40px;
+    height: 60px;
+    border: 2px solid #1d3e66;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    font-size: 30px;
+    /* Ajuste conforme necessário */
+    line-height: 60px;
+    /* Centraliza verticalmente */
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dois-pontos {
+    width: 6px;
+    /* Aumenta a largura */
+    height: 30px;
+    /* Aumenta a altura */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dois-pontos::before,
+.dois-pontos::after {
+    content: "";
+    width: 100%;
+    height: 35%;
+    background-color: #1d3e66;
+    border-radius: 50%;
+}
+
+.base {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-top: 5px;
+    position: absolute;
+    bottom: -15px;
+}
+
+.pezinho {
+    width: 20px;
+    height: 10px;
+    background-color: #1d3e66;
+    border-radius: 3px;
+}
+
+
+select {
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    display: inline;
+    background: white;
+    padding: 0px;
+    border-radius: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.modal-content select {
+    font-size: 15px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.modal-contentbutton {
+    margin-top: 10px;
+    padding: 8px;
+    font-size: 16px;
+    background: #6fa8dc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*Modal Calendario */
+
+/* Estilo do Container do Calendário */
+
+.calendario-container {
+    width: 320px;
+    background: linear-gradient(to bottom, #49c5b6, #1d3e66);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 20;
+    display: none;
+}
+
+/* Overlay para escurecer o fundo */
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+}
+
+/* Cabeçalho do calendário */
+.calendario-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.mes {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Grid de dias da semana e dias do mês */
+.dias-semana,
+.dias {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.dia,
+.dia-semana {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dia-semana {
+    font-weight: bold;
+}
+
+/* Estilização dos dias do calendário */
+.dia {
+    background: white;
+    color: #1d3e66;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.dia:hover {
+    background: #49c5b6;
+    color: white;
+}
+
+/* Dia reservado */
+.reservado {
+    background: #1d3e66;
+    color: white;
+    font-weight: bold;
+}
+
+/* Data inicial selecionada */
+.inicio-selecionado {
+    background: #49c5b6 !important;
+    color: white !important;
+    font-weight: bold;
+}
+
+/* Data final selecionada */
+.fim-selecionado {
+    background: #1d3e66 !important;
+    color: white !important;
+    font-weight: bold;
+}
+
+/* Intervalo de dias entre a seleção */
+.intervalo-selecionado {
+    background: rgba(73, 197, 182, 0.5);
+    color: white;
+}
+
+/* Estilo do Modal */
+.modal-calendario {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 300px;
+    z-index: 30;
+}
+
+/* Input do modal */
+.modal-calendario input {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Botão do modal */
+.modal-calendario button {
+    background: #49c5b6;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.modal-calendario button:hover {
+    background: #1d3e66;
+}
+
+/* Estilização do botão de abrir calendário */
+.img-calendario {
+    cursor: pointer;
+}

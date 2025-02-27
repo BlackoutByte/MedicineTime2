@@ -1,0 +1,107 @@
+.alarmes,
+.alarmes * {
+  box-sizing: border-box;
+}
+.alarmes {
+  background: #ffffff;
+  padding: 10px;
+  height: 800px;
+  position: relative;
+  overflow: hidden;
+}
+.image-3 {
+  width: 472px;
+  height: 800px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.line-1 {
+  background: #d9d9d9;
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #f19036;
+  border-width: 3px 0 0 0;
+  width: 350px;
+  height: 0px;
+  position: absolute;
+  left: 0px;
+  top: calc(50% - 161.12px);
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.mtlogo-1 {
+  width: 138px;
+  height: 85px;
+  position: absolute;
+  left: 24px;
+  top: 39px;
+  object-fit: cover;
+}
+.alarmes-de-medicamentos {
+  text-align: left;
+  position: absolute;
+  left: 15px;
+  top: 212px;
+}
+.alarmes-de-medicamentos-span {
+  color: #1d234b;
+  font-family: "LeagueSpartan-Bold", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+}
+.alarmes-de-medicamentos-span2 {
+  color: #000000;
+  font-family: "LeagueSpartan-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+.terracota-1 {
+  width: 335px;
+  height: 70px;
+  position: absolute;
+  left: 15px;
+  top: 292px;
+  object-fit: cover;
+  background-color: #F19036;
+  border-radius: 5px;
+}
+.terracota-2 {
+  width: 335px;
+  height: 70px;
+  position: absolute;
+  left: 15px;
+  top: 378px;
+  object-fit: cover;
+  background-color: #F19036;
+  border-radius: 5px;
+}
+.terracota-3 {
+  width: 335px;
+  height: 70px;
+  position: absolute;
+  left: 15px;
+  top: 464px;
+  object-fit: cover;
+  background-color: #F19036;
+  border-radius: 5px;
+}
+
+.image-5 {
+  border-radius: 37px;
+  width: 144px;
+  height: 115px;
+  position: absolute;
+  left: 21px;
+  top: 602px;
+  object-fit: cover;
+}
+.image-6 {
+  width: 132px;
+  height: 125px;
+  position: absolute;
+  left: 207px;
+  top: 39px;
+  object-fit: cover;
+}

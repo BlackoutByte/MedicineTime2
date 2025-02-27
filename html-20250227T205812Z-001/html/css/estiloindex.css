@@ -1,0 +1,120 @@
+.index,
+.index * {
+  box-sizing: border-box;
+}
+.index {
+  background: #ffffff;
+  padding: 10px;
+  height: 800px;
+  position: relative;
+  overflow: hidden;
+}
+.image-2 {
+  width: 376px;
+  height: 800px;
+  position: absolute;
+  left: -5px;
+  top: 0px;
+  object-fit: cover;
+}
+.img-20230929-142922-1 {
+  width: 390px;
+  height: 339px;
+  position: absolute;
+  left: -12px;
+  top: -24px;
+  object-fit: cover;
+}
+.imagem-2023-10-19-092314475-1 {
+  width: 358px;
+  height: 70px;
+  position: absolute;
+  left: 8px;
+  top: 330px;
+  object-fit: cover;
+}
+.botao-1 {
+  width: 323px;
+  height: 89px;
+  position: absolute;
+  left: 26px;
+  top: 509px;
+  object-fit: cover;
+}
+.botao-2 {
+  width: 323px;
+  height: 89px;
+  position: absolute;
+  left: 22px;
+  top: 623px;
+  object-fit: cover;
+}
+.primeiro-acesso {
+  color: #1d234b;
+  text-align: left;
+  font-family: "LeagueSpartan-Bold", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  position: absolute;
+  left: 70px;
+  top: 497px;
+}
+.j-possuo-cadastro {
+  color: #1d234b;
+  text-align: left;
+  font-family: "LeagueSpartan-Bold", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  position: absolute;
+  left: 70px;
+  top: 611px;
+}
+.cadastre-se {
+  color: #1d234b;
+  text-align: left;
+  font-family: "LeagueSpartan-Bold", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  position: absolute;
+  left: 114px;
+  top: 541px;
+}
+.entrar {
+  color: #1d234b;
+  text-align: left;
+  font-family: "LeagueSpartan-Bold", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  position: absolute;
+  left: 151px;
+  top: 655px;
+}
+.group-1 {
+  width: auto;
+  height: 6.75%;
+  position: absolute;
+  right: 78.96%;
+  left: 2.19%;
+  bottom: 1.12%;
+  top: 92.12%;
+  overflow: visible;
+}
+.termos-de-uso-e-condi-es {
+  color: #1d234b;
+  text-align: left;
+  font-family: "LeagueSpartan-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: fixed;
+  left: 80px;
+  top: 79%;
+  width: 250px;
+  height: 21px;
+}
+.slice-1 {
+  width: 1px;
+  height: 8px;
+  position: fixed;
+  left: 147px;
+  top: -8px;
+}

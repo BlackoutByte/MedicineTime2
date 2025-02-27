@@ -1,0 +1,163 @@
+.recuperar-acesso,
+.recuperar-acesso * {
+    box-sizing: border-box;
+}
+
+.recuperar-acesso {
+    background-image: url('/html/img/fundoprincipal2.png');
+    background-repeat: no-repeat;
+    padding: auto;
+    height: 800px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.mtlogo-1 {
+    width: 138px;
+    height: 85px;
+    position: absolute;
+    left: 24px;
+    top: 39px;
+    object-fit: cover;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-field {
+    border-radius: 30px;
+    font-size: 14px;
+    background-color: white;
+    width: 70%;
+    padding: 8px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+input {
+    border-top: 2px dashed #1e1e1e;
+    border-bottom: 2px dashed #1e1e1e;
+    border-left: 2px solid #1e1e1e;
+    border-right: 2px solid #1e1e1e;
+}
+
+.e-mail {
+    color: #1d234b;
+    text-align: left;
+    font-family: "LeagueSpartan-Bold", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    position: absolute;
+    left: 66px;
+    top: 339px;
+}
+
+.vector-email {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 300px;
+    top: 342px;
+    overflow: visible;
+}
+
+.caixaemail {
+    position: relative;
+    bottom: -370px;
+    width: 70%;
+    margin-left: 50px;
+}
+
+.codigo {
+    color: #1d234b;
+    text-align: left;
+    font-family: "LeagueSpartan-Bold", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    position: absolute;
+    left: 66px;
+    top: 411px;
+}
+
+.vector-codigo {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 300px;
+    top: 415px;
+    overflow: visible;
+}
+
+.caixacodigo {
+    position: relative;
+    bottom: -395px;
+    width: 70%;
+    margin-left: 50px;
+}
+
+
+
+.senha {
+  color: #1d234b;
+  text-align: left;
+  font-family: "LeagueSpartan-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 66px;
+  top: 545px;
+}
+
+.vector-senha {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 220px;
+  top: 550px;
+  overflow: visible;
+}
+.caixasenha {
+  position: relative;
+  bottom: -430px;
+  width: 70%;
+  margin-left: 50px;
+}
+
+/* CSS Botão*/
+
+.btnenviar,
+.btnverificar {
+    align-items: center;
+    background-clip: padding-box;
+    background-color: rgba(29, 35, 75, 1);
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    color: #fff;
+    cursor: pointer;
+    justify-content: center;
+    line-height: 1.25;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    top: 390px;
+    margin-left: 30px;
+}
+
+.btnconcluir {
+    align-items: center;
+    background-clip: padding-box;
+    background-color: rgba(29, 35, 75, 1);
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    color: #fff;
+    cursor: pointer;
+    justify-content: center;
+    line-height: 1.25;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    top: 450px;
+    left: 135px;
+}
