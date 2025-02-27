@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Configuração CronogramaT</title>
+  <link rel="stylesheet" href="css/estiloconf_cronograma.css">
+  <script src="js/scriptconf.js"></script>
+</head>
+
+<body>
+
+  <div class="conf-cronograma">
+
+    <img class="mtlogo-2" src="img/mtlogo 1.png" />
+    <div class="line-1"></div>
+    <div class="antibi-tico">&lt;&lt;Antibiótico&gt;&gt;</div>
+    <div class="relogio-container" onclick="abrirModal()">
+      <div class="relogio">
+        <div class="numero" id="hora-dezena"></div>
+        <div class="numero" id="hora-unidade"></div>
+        <div class="dois-pontos"></div>
+        <div class="numero" id="minuto-dezena"></div>
+        <div class="numero" id="minuto-unidade"></div>
+        <div class="base">
+          <div class="pezinho"></div>
+          <div class="pezinho"></div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="modal">
+      <div class="modal-content">
+        <h3>Definir Hora</h3>
+        <label>Hora:</label>
+        <select id="hora">
+          <script>
+            for (let i = 0; i < 24; i++) {
+              document.write(`<option value="${i}">${i < 10 ? "0" + i : i}</option>`);
+            }
+          </script>
+        </select>
+
+        <label>Minuto:</label>
+        <select id="minuto">
+          <script>
+            for (let i = 0; i < 60; i++) {
+              document.write(`<option value="${i}">${i < 10 ? "0" + i : i}</option>`);
+            }
+          </script>
+        </select>
+
+        <button onclick="definirHora()">Confirmar</button>
+      </div>
+    </div>
+
+    <script>
+      let atualizarAutomaticamente = true;
+
+      function atualizarHoraAtual() {
+        if (!atualizarAutomaticamente) return;
+
+        const agora = new Date();
+        atualizarDisplay(agora.getHours(), agora.getMinutes());
+      }
+
+      function abrirModal() {
+        document.getElementById("modal").style.display = "flex";
+      }
+
+      function definirHora() {
+        const hora = document.getElementById("hora").value;
+        const minuto = document.getElementById("minuto").value;
+
+        atualizarAutomaticamente = false;
+        atualizarDisplay(hora, minuto);
+        fecharModal();
+      }
+
+      function fecharModal() {
+        document.getElementById("modal").style.display = "none";
+      }
+
+      function atualizarDisplay(hora, minuto) {
+        const horaStr = String(hora).padStart(2, "0");
+        const minutoStr = String(minuto).padStart(2, "0");
+
+        document.getElementById("hora-dezena").textContent = horaStr[0];
+        document.getElementById("hora-unidade").textContent = horaStr[1];
+        document.getElementById("minuto-dezena").textContent = minutoStr[0];
+        document.getElementById("minuto-unidade").textContent = minutoStr[1];
+      }
+
+      setInterval(atualizarHoraAtual, 1000);
+      atualizarHoraAtual();
+    </script>
+  <div class="pr-ximo">Próximo</div>
+  <div class="alterar">Alterar</div>
+  <div class="excluir">Excluir</div>
+  <div class="rectangle-9"></div>
+  <div class="rectangle-10"></div>
+  </div>
+</body>

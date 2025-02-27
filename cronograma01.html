@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronograma 01</title>
+    <link rel="stylesheet" href="css/cronograma01estilo.css">
+    <script src="js/relogiocronograma.js"></script>
+
+</head>
+
+<body>
+    <div class="cronograma-01">
+        <div class="line-1"></div>
+        <img class="mtlogo-1" src="img/mtlogo 1.png" />
+        <div class="cronograma">Cronograma</div>
+
+        <label for="nomeremedio" class="nome-do-rem-dio">Nome Remédio*</label>
+        <div class="caixanomeremedio">
+            <input type="email" id="email" name="nomeremedio" class="input-field" placeholder="Informe nome do remédio"
+                required>
+        </div>
+
+        <div class="hor-rio-inicial-do-tratamento">
+            Horário Inicial do Tratamento *
+        </div>
+        <div class="intervalo-de-horas-e-dias">
+            Intervalo de Horas
+            e Dias *
+            <br />
+        </div>
+        <img class="vector-remedio" src="img/vectorinfo.png" />
+        <img class="vector-horainicial" src="img/vectorinfo.png" />
+        <img class="vector-intervalo" src="img/vectorinfo.png" />
+        <div class="relogio-container" onclick="abrirModal()">
+            <div class="relogio">
+                <div class="numero" id="hora-dezena"></div>
+                <div class="numero" id="hora-unidade"></div>
+                <div class="dois-pontos"></div>
+                <div class="numero" id="minuto-dezena"></div>
+                <div class="numero" id="minuto-unidade"></div>
+                <div class="base">
+                    <div class="pezinho"></div>
+                    <div class="pezinho"></div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <h3>Definir Hora</h3>
+                <label>Hora:</label>
+                <select id="hora">
+                    <script>
+                        for (let i = 0; i < 24; i++) {
+                            document.write(`<option value="${i}">${i < 10 ? "0" + i : i}</option>`);
+                        }
+                    </script>
+                </select>
+
+                <label>Minuto:</label>
+                <select id="minuto">
+                    <script>
+                        for (let i = 0; i < 60; i++) {
+                            document.write(`<option value="${i}">${i < 10 ? "0" + i : i}</option>`);
+                        }
+                    </script>
+                </select>
+
+                <button onclick="definirHora()">Confirmar</button>
+            </div>
+        </div>
+        <img class="image-4" src="img/pillscronograma.png" />
+
+        <input type="button" class="btn-prosseguir" value="Prosseguir">
+
+        <img class="data-1" src="img/calendario.png" onclick="toggleCalendario()" />
+
+        <!-- Fundo escuro -->
+        <div class="overlay" id="overlay" onclick="toggleCalendario()"></div>
+
+        <!-- Calendário Modal -->
+        <div class="calendario-container" id="calendario-container">
+            <div class="calendario-header">
+                <button onclick="mudarMes(-1)">◀</button>
+                <div class="mes" id="mes-ano"></div>
+                <button onclick="mudarMes(1)">▶</button>
+            </div>
+
+            <div class="dias-semana">
+                <div class="dia-semana">D</div>
+                <div class="dia-semana">S</div>
+                <div class="dia-semana">T</div>
+                <div class="dia-semana">Q</div>
+                <div class="dia-semana">Q</div>
+                <div class="dia-semana">S</div>
+                <div class="dia-semana">S</div>
+            </div>
+
+            <div class="dias" id="dias"></div>
+        </div>
+
+        <!-- Modal de Reserva -->
+        <div class="modal-calendario" id="modal-calendario">
+            <h3>Selecionar Período</h3>
+            <p>Início: <span id="dataInicio">-</span></p>
+            <p>Fim: <span id="dataFim">-</span></p>
+            <button onclick="salvarReserva()">Confirmar</button>
+        </div>
+<script src="js/calendario.js"></script>
+
+    </div>
+</body>
+
+</html>

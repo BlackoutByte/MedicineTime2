@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro MT</title>
+        <link rel="stylesheet" href="css/estilocadastro.css">
+    </head>
+
+    <body>
+        <div class="cadastro">
+            <img class="pilfree-1" src="img/pillcadastro.png" />
+            <div class="line-1"></div>
+            <div class="cadastro2">Cadastro</div>
+            <img class="mtlogo-1" src="img/mtlogo 1.png" />
+            <form id="cadastroForm" action="">
+
+                <label for="nome-completocad" class="nome">Nome *</label>
+                <div class="caixanome">
+                    <input type="text" id="nome" name="nome-completocad" class="input-field"
+                        placeholder="Digite seu nome" required>
+                </div>
+                <img class="vector-nome" src="img/vectorinfo.png" />
+
+
+                <label for="nascimentocad" class="data-de-nascimento">Data de Nascimento *</label>
+                <div class="caixanascimento">
+                    <input type="date" id="nascimento" name="nascimentocad" class="input-field" required>
+                </div>
+                <img class="vector-data-nascimento" src="img/vectorinfo.png" />
+
+                <label for="emailcad" class="e-mail">E-mail *</label>
+                <div class="caixaemail">
+                    <input type="email" id="email" name="emailcad" class="input-field" placeholder="Digite seu e-mail"
+                        required>
+                </div>
+                <img class="vector-email" src="img/vectorinfo.png" />
+
+                <label for="senhacad" class="senha">Senha *</label>
+                <div class="caixasenha">
+                    <input type="password" id="senha" name="senhacad" class="input-field" placeholder="Digite sua senha"
+                        required>
+                </div>
+                <img class="vector-senha" src="img/vectorinfo.png" />
+
+                <label class="sexo">Sexo *</label>
+                <div class="sexo-opcoes">
+                    <label><input type="radio" name="sexo" value="mulher" required> Mulher</label>
+                    <label><input type="radio" name="sexo" value="homem" required> Homem</label>
+                    <label><input type="radio" name="sexo" value="nao-binario" required> Não Binário</label>
+                </div>
+
+                <img class="vector-sexo" src="img/vectorinfo.png" />
+                <div class="termos-de-uso-e-condi-es">Termos de uso e condições *</div>
+
+                <button type="submit" class="botao-confirmar"> Confirmar
+        </div>
+        </form>
+        <script src="js/cadastro.js"></script>
+    </body>
+
+</html>
